@@ -1,15 +1,15 @@
 This tool allows converting Minecraft Java schematic files into MakeCode script that can rebuild the schematic in the Minecraft: Education Edition world.
 
-To use the converter just drag and drop the schematic file on to the schematicToMakeCode.exe file that you will find in releases.
-
-To use the script you need to 
-1) Paste it inside the JavaScript view of MakeCode in Minecraft: Education Edition.
+To use the converter:  
+1. Drag and drop the schematic file on to the schematicToMakeCode.exe that you will find in releases. As a result .ts file will be generated.
+1. Copy the content of the .ts file using any text editor.
+1. Paste it inside the JavaScript view of MakeCode in Minecraft: Education Edition.
 ![MakeCode js window](docs/MakeCodeJS.png)
-2) Close MakeCode window.
-3) Press "Enter" and then type "jump x y z" where x y z are coordinates of the player. 
+1. Close MakeCode window.
+3. Press "Enter" and then type "jump x y z" where x y z are coordinates of the player. 
 For example: 
 ![Console command example](docs/command.png)
-4) Wait for schematic to be rebuilded in your world. 
+4. Wait for schematic to be rebuilded in your world. 
 ![Yellow apple from java schematic rebuilded in Minecraft:EE](docs/result.png)
 
 Here is an example of a generated script:
